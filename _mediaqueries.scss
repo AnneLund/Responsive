@@ -1,0 +1,72 @@
+@media screen and(max-width: $mobile) {
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .seven,
+  .eight,
+  .nine,
+  .ten {
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .five {
+    figure {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+
+  footer {
+    height: 32vh;
+    img {
+      position: absolute;
+      left: 0;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  footer {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  header {
+    height: 20vh;
+    h1 {
+      font-size: 8.5vw;
+    }
+  }
+  #navbar {
+    height: 20vh;
+
+    a {
+      float: none;
+      text-align: left;
+      padding: 5px 0;
+      text-decoration: underline white 1px;
+      font-size: 22px;
+
+      &:hover {
+        background-color: $turkis;
+      }
+    }
+  }
+}
