@@ -65,7 +65,7 @@ body {
     }
     //HEADER//
     header {
-      background-image: url(./img/Header-Image.png);
+      background-image: url(/img/Header-Image.png);
       background-size: cover;
       background-repeat: no-repeat;
       position: relative;
@@ -92,7 +92,7 @@ body {
     #navbar {
       position: sticky;
       top: 0;
-      background-image: url(./img/nav.jpg);
+      background-image: url(/img/nav.jpg);
       height: 8vh;
       width: 100%;
       box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
