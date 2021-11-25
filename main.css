@@ -4,8 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -18,22 +17,18 @@ body .container {
   padding: 20px;
   font-family: "Roboto Condensed", sans-serif;
 }
-
 body .container img {
   width: 100%;
 }
-
 body .container header {
-  background-image: url(./img/Header-Image.png);
+  background-image: url(../img/Header-Image.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   height: 45vh;
   overflow: hidden;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
-          box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
 }
-
 body .container header h1 {
   font-family: "Oswald", sans-serif;
   font-weight: 100;
@@ -42,22 +37,18 @@ body .container header h1 {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.637) 10px 10px 10px;
 }
-
 body .container header h1 span {
   color: #aedde3;
 }
-
 body .container #navbar {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url(./img/nav.jpg);
+  background-image: url(../img/nav.jpg);
   height: 8vh;
   width: 100%;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
-          box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.692) 0 15px 15px;
 }
-
 body .container #navbar a {
   text-transform: uppercase;
   float: right;
@@ -68,11 +59,9 @@ body .container #navbar a {
   text-decoration: none;
   font-size: 25px;
 }
-
 body .container #navbar a:hover {
   background-color: #009bb0;
 }
-
 @media screen and (max-width: 980px) {
   body .container header {
     height: 25vh;
@@ -99,7 +88,6 @@ body .container #navbar a:hover {
     background-color: #3e589b;
   }
 }
-
 @media screen and (max-width: 580px) {
   body .container header {
     height: 20vh;
@@ -122,140 +110,107 @@ body .container #navbar a:hover {
     background-color: #009bb0;
   }
 }
-
 body .container .one {
   padding: 30px 0;
 }
-
 body .container .one h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
   padding: 0;
 }
-
 body .container .one h4 {
   font-weight: 100;
   font-size: 30px;
   color: #009bb0;
   font-style: italic;
 }
-
 body .container .two {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
   text-align: center;
 }
-
 body .container .two img {
   width: 100%;
 }
-
 body .container .three h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
   padding: 20px 0;
 }
-
 body .container .three .text {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
   gap: 50px;
 }
-
 body .container .three p {
   font-size: 20px;
 }
-
 body .container .four h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
   padding: 20px 0;
 }
-
 body .container .four li {
   list-style-position: inside;
 }
-
 body .container .four li span {
   color: #009bb0;
 }
-
 body .container .five {
   padding: 30px 0 0;
 }
-
 body .container .five h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
 }
-
 body .container .five h4 {
   font-weight: 100;
   font-size: 30px;
   color: #009bb0;
   font-style: italic;
 }
-
 body .container .five .text {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
   gap: 50px;
   margin: 20px 0;
 }
-
 body .container .five p {
   font-size: 20px;
 }
-
 body .container .five figure {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
 }
-
 body .container .five figure img {
   width: 100%;
 }
-
 body .container .six {
   padding: 30px 0;
 }
-
 body .container .six h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
 }
-
 body .container .six ul {
   padding: 20px 0;
 }
-
 body .container .six li {
   list-style-position: inside;
 }
-
 body .container .six li span {
   color: #009bb0;
 }
-
 body .container .seven h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
 }
-
 body .container .seven h4 {
   font-weight: 100;
   font-size: 30px;
@@ -263,26 +218,21 @@ body .container .seven h4 {
   font-style: italic;
   padding: 10px 0 20px 0;
 }
-
 body .container .seven span {
   color: #009bb0;
 }
-
 body .container .eight h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
   padding: 20px 0;
 }
-
 body .container .eight span {
   color: #009bb0;
 }
-
 body .container .eight .blue-dark {
   color: #3e589b;
 }
-
 body .container .eight h4 {
   font-weight: 100;
   font-size: 30px;
@@ -290,17 +240,14 @@ body .container .eight h4 {
   font-style: italic;
   padding: 20px 0;
 }
-
 body .container .nine {
   padding: 30px 0;
 }
-
 body .container .nine h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
 }
-
 body .container .nine h4 {
   font-weight: 100;
   font-size: 30px;
@@ -308,13 +255,11 @@ body .container .nine h4 {
   font-style: italic;
   padding: 0 0 20px;
 }
-
 body .container .ten h3 {
   font-weight: 100;
   color: #009bb0;
   font-size: 40px;
 }
-
 body .container .ten h4 {
   font-weight: 100;
   font-size: 30px;
@@ -322,25 +267,21 @@ body .container .ten h4 {
   font-style: italic;
   padding: 0 0 20px;
 }
-
 body .container footer {
   position: relative;
   padding: 20px 0;
   background-color: #3e589b;
 }
-
 body .container footer p {
   color: white;
   font-size: 20px;
   padding: 10px;
 }
-
 body .container footer p a {
   text-decoration: none;
   color: #aedde3;
   line-height: 25px;
 }
-
 body .container footer img {
   position: absolute;
   right: 0;
@@ -348,49 +289,43 @@ body .container footer img {
   width: 30%;
   padding: 10px;
 }
-
 @media screen and (max-width: 980px) {
   body .container footer img {
     width: 50%;
   }
 }
-
 @media screen and (max-width: 580px) {
   body .container .one h3,
-  body .container .two h3,
-  body .container .three h3,
-  body .container .four h3,
-  body .container .five h3,
-  body .container .six h3,
-  body .container .seven h3,
-  body .container .eight h3,
-  body .container .nine h3,
-  body .container .ten h3 {
+body .container .two h3,
+body .container .three h3,
+body .container .four h3,
+body .container .five h3,
+body .container .six h3,
+body .container .seven h3,
+body .container .eight h3,
+body .container .nine h3,
+body .container .ten h3 {
     font-size: 30px;
   }
   body .container .one h4,
-  body .container .two h4,
-  body .container .three h4,
-  body .container .four h4,
-  body .container .five h4,
-  body .container .six h4,
-  body .container .seven h4,
-  body .container .eight h4,
-  body .container .nine h4,
-  body .container .ten h4 {
+body .container .two h4,
+body .container .three h4,
+body .container .four h4,
+body .container .five h4,
+body .container .six h4,
+body .container .seven h4,
+body .container .eight h4,
+body .container .nine h4,
+body .container .ten h4 {
     font-size: 20px;
   }
   body .container .two {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
   }
   body .container .five figure {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
   }
   body .container footer {
     height: 32vh;
@@ -400,5 +335,4 @@ body .container footer img {
     left: 0;
     width: 50%;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
